@@ -1,7 +1,8 @@
-#Test Header
+# Test Header
+
 Testing if I can upload new content to GitHub. Also, will it format this nicely? What happens when I write a long paragraph: Will it wrap around nicely to the next line?
 
-###List of Tables:
+### List of Tables:
 - Player information: player id, location, age, system, and day joined
 - Match information: player id, match id, opponent id, outcome, and day played
 - Item information: item id, price
