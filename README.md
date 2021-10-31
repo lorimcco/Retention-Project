@@ -2,15 +2,15 @@
 
 ### Introduction
 
-This project analyzes data from a mobile game company’s first year. The data set is a relational database that includes four tables:
-- Player information: player id, location, age, system, and day joined
-- Match information: player id, match id, opponent id, outcome, and day played
+This project analyzes data from a mobile game company’s first year to answer the following questions:
+1. What is the rolling 30-day retention rate by day?
+2. How does spending on in-game items differ between retained and non-retained players?
+
+The data set is a relational database that includes four tables:
+- Player information: player id, location, age, system, day joined
+- Match information: player id, match id, opponent id, outcome, day played
 - Item information: item id, price
 - Purchase information: player id, item id, day purchased
-
-We used these tables to answer two questions about the data:
-1. What is the rolling 30-day retention rate by day?
-2. How does spending on in-game items of retained players differ from non-retained players?
 
 We used Google BigQuery to run SQL queries and Google Sheets to create charts to display the results.
 
