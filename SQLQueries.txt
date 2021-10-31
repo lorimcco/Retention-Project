@@ -110,7 +110,6 @@ WITH retention AS
     --Gives retention (0 or 1) for each player
     (SELECT
         p.player_id,
-        MAX(m.day) AS most_recent_match,
         CASE 
             WHEN MAX(m.day) - p.joined >= 30 THEN 1 --If the most recent match is 30 or more days after the day the player joined, player is retained
             ELSE 0 --If the most recent match is less than 30 days after the player joined, player is not retained
