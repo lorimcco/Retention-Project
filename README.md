@@ -37,13 +37,13 @@ The chart shows a drop in retention rate for the last few days due to the fact t
 
 ### In-Game Spending Habits by Retention
 
-![Total spent by retention chart](Total_Spent_by_Retention.png)
-
 The total amount spent on in-game items by retained players ($36.5 million) is over twice as much as non-retained players ($16.9 million). This was expected, since a majority of players are retained. 
 
-![Average spent by retention chart](Avg_Spent_by_Retention.png)
+![Total spent by retention chart](Total_Spent_by_Retention.png)
 
 The most interesting result is that non-retained players spend about $185 more per player than their retained counterparts. This could suggest that there is a pay-to-win mechanic at work in this game: non-retained players may be purchasing many in-game items that make the game too easy, causing them to become quickly bored with the game and quit playing. 
+
+![Average spent by retention chart](Avg_Spent_by_Retention.png)
 
 My suggestions for the company depend on their goals. If the company wants to increase retention, they may want to evaluate the in-game items to see if there are some powerful items that are making the game less engaging. Perhaps there are ways to modify some of these items to make a pay-to-win game strategy less viable. However, if the company is primarily concerned with increasing profit, it would be more effective to pursue strategies to attract more new players rather than retaining them for a longer period, since retained players actually spend less than non-retained ones.
 
