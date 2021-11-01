@@ -31,7 +31,9 @@ We also noticed an issue when we visualized the data from our rolling 30-day ret
 While the rolling 30-day retention rate varied between 60% and 84%, the overall retention rate remained stable over the year, averaging around 71%.
 ![30-day retention chart](Retention_Chart.png)
 
-The chart shows a drop in retention rate for the last few days due to the fact that we don’t have data past day 365. Some of the players who joined on days 333-335 may end up being retained if they play a match in the next few days beyond the end of the first year. The trend of the number of players joining each day is also stable overall, not showing an increasing or decreasing pattern throughout the year.
+The chart shows a drop in retention rate for the last few days due to the fact that we don’t have data past day 365. Some of the players who joined on days 333-335 may end up being retained if they play a match in the next few days beyond the end of the first year. The number of players joining over the year fluctuates day by day, but also has a stable trend throughout the year, neither increasing nor decreasing overall.
+
+![Players joining chart](Players_Joined_per_Day.png)
 
 ### In-Game Spending Habits by Retention
 
