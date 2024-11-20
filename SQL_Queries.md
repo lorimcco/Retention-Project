@@ -35,7 +35,7 @@ ORDER BY
 ### Query 1b: Retention Table using CTE
 
 ```sql
---Finds number of players joined, number of players retained for 30 days, and fractional retention per day, using a WITH clause.
+--Finds number of players joined, number of players retained for 30 days, and fractional retention per day, using a CTE.
 
 WITH retention AS
     --Finds the day joined, the day of the last match played, and whether the player was retained (1) or not (0)
@@ -116,7 +116,7 @@ ORDER BY
 ### Query 2b: In-Game Spending by Retention using CTE
 
 ```sql
---Finds the total spent and average amount spent per player for retained and non-retained players, using two temporary tables in a WITH clause
+--Finds the total spent and average amount spent per player for retained and non-retained players, using two CTEs
 
 WITH retention AS 
     --Gives retention (0 or 1) for each player
